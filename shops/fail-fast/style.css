@@ -12,10 +12,6 @@ h1 {
   color: #000;
 }
 
-.img{
-  margin-top: 80px;
-}
-
 .inline-section{
   display: inline-flex;
   justify-content: space-around;
