@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════
-   Footer — فوتر
+   Footer
    ═══════════════════════════════════════════════════ */
 
 .site-footer {
@@ -10,7 +10,6 @@
   padding-block: var(--s-8) var(--s-4);
   overflow: hidden;
 }
-
 .site-footer::before {
   content: "";
   position: absolute;
@@ -52,13 +51,11 @@
   color: #fff;
   margin-bottom: var(--s-1);
 }
-
 .footer__brand-icon {
   width: 34px;
   height: 34px;
   flex-shrink: 0;
 }
-
 .footer__brand-icon svg {
   width: 100%;
   height: 100%;
@@ -69,7 +66,6 @@
   line-height: 1.9;
   color: #a5d6a7;
 }
-
 .footer__contact {
   display: flex;
   align-items: center;
@@ -77,11 +73,9 @@
   font-size: 0.9rem;
   color: #a5d6a7;
 }
-
 .footer__contact a {
   transition: color var(--t-fast);
 }
-
 .footer__contact a:hover {
   color: #fff;
 }
@@ -91,7 +85,6 @@
   flex-direction: column;
   gap: var(--s-2);
 }
-
 .footer__list a {
   display: inline-block;
   font-size: 0.88rem;
@@ -100,7 +93,6 @@
     color var(--t-fast),
     padding-inline-start var(--t-fast);
 }
-
 .footer__list a:hover,
 .footer__list a:focus-visible {
   color: #fff;
@@ -118,7 +110,6 @@
   flex-wrap: wrap;
   font-size: 0.82rem;
 }
-
 .footer__copy {
   color: #81c784;
 }
@@ -137,7 +128,6 @@
     transform var(--t-fast),
     box-shadow var(--t-fast);
 }
-
 .footer__top:hover {
   transform: translateY(-2px);
   box-shadow: var(--shadow-primary-hover);
