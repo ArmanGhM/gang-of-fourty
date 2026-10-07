@@ -55,9 +55,7 @@
   height: 2px;
   background: var(--green-800);
   border-radius: 2px;
-  transition:
-    transform var(--t-base),
-    opacity var(--t-base);
+  transition: transform var(--t-base), opacity var(--t-base);
 }
 
 /* ─── مگا منو ─── */
@@ -80,9 +78,7 @@
   font-family: inherit;
   cursor: pointer;
   white-space: nowrap;
-  transition:
-    background var(--t-fast),
-    color var(--t-fast);
+  transition: background var(--t-fast), color var(--t-fast);
 }
 
 .mega__trigger:hover,
@@ -125,10 +121,8 @@
   visibility: hidden;
   transform: translateY(-6px);
   pointer-events: none;
-  transition:
-    opacity var(--t-base),
-    transform var(--t-base),
-    visibility var(--t-base);
+  transition: opacity var(--t-base), transform var(--t-base),
+              visibility var(--t-base);
 }
 
 .mega:hover .mega__menu,
@@ -154,10 +148,8 @@
   color: var(--text-soft);
   text-decoration: none;
   border-radius: var(--r-sm);
-  transition:
-    background var(--t-fast),
-    color var(--t-fast),
-    padding var(--t-fast);
+  transition: background var(--t-fast), color var(--t-fast),
+              padding var(--t-fast);
 }
 
 .mega__list a:hover {
@@ -192,9 +184,7 @@
   text-decoration: none;
   border-radius: var(--r-sm);
   white-space: nowrap;
-  transition:
-    color var(--t-fast),
-    background var(--t-fast);
+  transition: color var(--t-fast), background var(--t-fast);
 }
 
 .nav__links a:hover {
@@ -208,26 +198,14 @@
 
 /* ─── ۱۰۲۴px ─── */
 @media (max-width: 1024px) {
-  .nav__wrapper {
-    padding: 0 var(--s-4);
-    gap: var(--s-2);
-  }
-  .nav__links a {
-    padding: var(--s-2) 10px;
-    font-size: 13px;
-  }
-  .mega__trigger {
-    padding: 8px var(--s-3);
-    font-size: 13px;
-  }
+  .nav__wrapper { padding: 0 var(--s-4); gap: var(--s-2); }
+  .nav__links a { padding: var(--s-2) 10px; font-size: 13px; }
+  .mega__trigger { padding: 8px var(--s-3); font-size: 13px; }
 }
 
 /* ─── ۹۰۰px ─── */
 @media (max-width: 900px) {
-  .nav__links a {
-    padding: var(--s-2) 9px;
-    font-size: 12.5px;
-  }
+  .nav__links a { padding: var(--s-2) 9px; font-size: 12.5px; }
 }
 
 /* ─── ۷۶۸px: منوی همبرگری ─── */
@@ -275,9 +253,7 @@
     overflow-y: auto;
   }
 
-  .nav__links li {
-    width: 100%;
-  }
+  .nav__links li { width: 100%; }
 
   .nav__links a {
     display: block;
@@ -312,19 +288,10 @@
 
 /* ─── ۴۸۰px ─── */
 @media (max-width: 480px) {
-  .nav__wrapper {
-    padding: 0 var(--s-3);
-    height: 46px;
-  }
+  .nav__wrapper { padding: 0 var(--s-3); height: 46px; }
 
-  .menu-toggle {
-    width: 38px;
-    height: 38px;
-    padding: 9px;
-  }
-  .menu-toggle span {
-    width: 20px;
-  }
+  .menu-toggle { width: 38px; height: 38px; padding: 9px; }
+  .menu-toggle span { width: 20px; }
 
   .nav__links a {
     padding: var(--s-3) var(--s-3);
